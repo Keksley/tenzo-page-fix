@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
+
+body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 1080px;
+    left: 0px;
+    top: 0px;
+    background:#ffffff;
+    color: #1a222b;
+}
+
+.page-header, .page-footer {
+    width: 100%;
+    height: 150px;
+    left: 0px;
+    top: 0px;
+    background-color: #193e6c;
+    text-align: center;
+    /* box-shadow: 3px 3px 4px #1f589e; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-footer {
+    margin-top: 200px;
+}
+
+
+.page-header__title {
+    margin: 0;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Unica One', thin;
+    color: #ffffff;
+}
+
+.reasons {
+    width: 60%;
+    margin: 200px auto;
+}
+
+.reasons img {
+    object-fit: contain;
+    height: 375px;
+    float: left;
+    margin: 10px 50px 0 10px;
+    border-radius: 30px; /* Радиус скругления */
+    padding: 2px;
+}
+
+.lyrics {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.title {
+    font-family: 'Jockey One', sans-serif;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.title path {
+    fill: #1a222b;
+}
+
+.reasons__list {
+    font-size: 25px;
+    font-family: 'Amatic SC', cursive, bold;
+}
+
+.lyrics__text {
+    font-family: 'Jockey One', sans-serif;
+    font-size: 20px;
+}
